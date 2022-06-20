@@ -16,7 +16,7 @@ jobs:
   fuzz_tests:
     runs-on: tw-jacktien
     # Configure your build environment here ..
-    # container: example/docker_image
+    # container: example/docker_image ..
     steps:
       - id: checkout
         name: Checkout
